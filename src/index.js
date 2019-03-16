@@ -17,7 +17,6 @@
 
 var ledger = module.exports;
 
-ledger.comm_node = require('./ledger-comm-node');
 ledger.comm_u2f = require('./ledger-comm-u2f');
 ledger.App = require('./ledger-app');
 
